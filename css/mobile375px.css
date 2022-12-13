@@ -1,52 +1,61 @@
 /* МЕДИА-ЗАПРОСЫ МОБИЛЬНОЙ ВЕРСТКИ*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
     /* ОБЩИЕ СТИЛИ */
-        /* ОБЕРТКА КОНТЕНТА */
+    /* ОБЕРТКА КОНТЕНТА */
 
-    .wrapper{
+    .wrapper {
         max-width: 375px;
         margin-left: 18px;
         margin-right: 18px;
     }
-    .button{
-        box-shadow:none;
+
+    .button {
+        box-shadow: none;
         /* border-radius: none; */
     }
-    
+
     /* HEADER */
-    .header{
+    .header {
         height: 57px;
     }
-    .navigation{
+
+    .navigation {
         display: none;
     }
-    .button-header{
+
+    .button-header {
         display: none;
     }
-    .tel_span{
+
+    .tel_span {
         text-decoration-line: none;
         color: #fff !important;
     }
-    
+
     /* СЕКЦИЯ ПЕРВАЯ */
-    .section_one{
+    .section_one {
         padding-bottom: 62px;
     }
-    .wrapper-section-one{
+
+    .wrapper-section-one {
         padding-top: 85px;
     }
-    .wrapper-section-one h1{
+
+    .wrapper-section-one h1 {
         font-size: 23px;
         line-height: 30px;
     }
-    .colortext{
+
+    .colortext {
         font-size: 23px;
     }
-    .wrapper-section-one p{
+
+    .wrapper-section-one p {
         font-size: 14px;
         margin-bottom: 32px;
     }
-    .button-calc-cost{
+
+    .button-calc-cost {
         display: block;
         font-size: 11px;
         line-height: 13px;
@@ -56,12 +65,14 @@
         border-radius: 0px;
         height: auto;
         padding: 19px 68px;
-        
+
     }
-    .button-submit-app{
+
+    .button-submit-app {
         display: none;
     }
-    .button-submit-app_mobile{
+
+    .button-submit-app_mobile {
         font-style: italic;
         background-color: rgba(255, 255, 255, 0);
         border: solid 1px rgba(255, 255, 255, 1);
@@ -77,30 +88,30 @@
 
     /* СЕКЦИЯ ДВА */
 
-    .section_two{
+    .section_two {
         padding-bottom: 58px;
     }
 
-    .projects_adress-list{
+    .projects_adress-list {
         display: none;
     }
-    
-    .complete-projects{
+
+    .complete-projects {
         padding-top: 36px;
         max-width: 375px;
     }
 
-    .projects_img_mobile{
+    .projects_img_mobile {
         display: block;
         margin-bottom: 36px;
         max-width: 339px;
     }
 
-    .mobile_layout_off{
+    .mobile_layout_off {
         display: none;
     }
 
-    .projects_description-text h2{
+    .projects_description-text h2 {
         font-size: 23px;
         margin: 0px auto 22px auto;
         text-align: center;
@@ -113,55 +124,58 @@
     }
 
     .projects_description-text p,
-    .projects_description-text span{
+    .projects_description-text span {
         font-size: 11px;
     }
-    .specifications{
+
+    .specifications {
         grid-template-columns: 100px 187px;
         column-gap: 61px;
         row-gap: 27px;
         max-width: 339px;
         margin-bottom: 0px;
     }
-    .projects_description-text h3{
+
+    .projects_description-text h3 {
         font-size: 14px;
 
     }
 
     /* СЕКЦИЯ ТРЕТЬЯ */
-    .section_three{
+    .section_three {
         background-color: #131313;
         margin-bottom: 84px;
         margin-top: 0px;
     }
 
-    .main_img{
+    .main_img {
         max-width: 340px;
     }
-    .title_section_three h3{
+
+    .title_section_three h3 {
         margin-top: 0px;
         font-size: 22px;
         line-height: 30px;
     }
 
-    .dependent_img{
+    .dependent_img {
         display: none;
     }
 
-    .depend_mobile{
-        display:block;
+    .depend_mobile {
+        display: block;
     }
-    
-    .wrapper-img{
+
+    .wrapper-img {
         position: relative;
         margin-bottom: 28px;
     }
 
-    hr{
+    hr {
         margin-bottom: 21px;
     }
 
-    .wrapper-section-three p{
+    .wrapper-section-three p {
         font-size: 11px;
         line-height: 18px;
         color: #fff;
@@ -169,24 +183,25 @@
         margin-bottom: 61px;
     }
 
-        /* ФОРМА, ТРЕТЬЯ СЕКЦИЯ */
-    .first_form{
+    /* ФОРМА, ТРЕТЬЯ СЕКЦИЯ */
+    .first_form {
         justify-content: unset;
         position: relative;
     }
-    
-    .input_box{
+
+    .input_box {
         width: 100vw;
     }
-    .box_one_mobile{
+
+    .box_one_mobile {
         margin-bottom: 61px;
     }
 
-    .input_box label{
+    .input_box label {
         color: rgba(255, 255, 255, 0.5);
     }
 
-    .input_box input{
+    .input_box input {
         background-color: transparent;
         border: none;
         border-bottom: solid 1px rgba(255, 255, 255, 0.15);
@@ -196,25 +211,27 @@
         color: rgba(255, 255, 255, 1);
     }
 
-    .checkbox_box, .form_call_measurer, .pig_bank{
+    .checkbox_box,
+    .form_call_measurer,
+    .pig_bank {
         display: none;
     }
 
-    .checkbox_mobile{
+    .checkbox_mobile {
         display: block;
         margin-top: 26px;
         margin-bottom: 88px;
     }
 
-    .label{
+    .label {
         margin-left: 0px;
     }
 
-    .text{
+    .text {
         color: #fff;
     }
 
-    .button-submit-first-form{
+    .button-submit-first-form {
         width: 340px;
         line-height: 13px;
         padding: 20px 124px;
@@ -225,38 +242,40 @@
 
     /* СЕКЦИЯ ЧЕТВЕРТАЯ */
 
-    .section_four{
+    .section_four {
         margin-bottom: 0px;
     }
 
-    .title{
+    .title {
         margin-bottom: 40px;
     }
 
-    .title_section_four h3{
+    .title_section_four h3 {
         font-size: 22px;
         line-height: 26px;
     }
 
 
-    .types_of_repair{
+    .types_of_repair {
         flex-direction: column;
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
     }
 
-    .repair_content_first, .repair_content_second, .repair_content_third{
+    .repair_content_first,
+    .repair_content_second,
+    .repair_content_third {
         margin-bottom: 79px;
         background-size: contain;
         width: auto;
     }
 
-    .repair_content_second{
+    .repair_content_second {
         background-image: url(../images/card_image2_mobile.jpg);
     }
 
-    .repair_description{
+    .repair_description {
         margin-top: 223px;
         margin-left: 0px;
         margin-right: 70px;
@@ -265,23 +284,23 @@
         position: relative;
     }
 
-    .header_description{
+    .header_description {
         font-size: 15px;
         margin: 0px 47px 10px 31px;
         padding-top: 21px;
     }
 
-    .list_description{
+    .list_description {
         margin: 0px 41px 0px 31px;
     }
 
-    .list_item_description{
+    .list_item_description {
         font-size: 13px;
         line-height: 22px;
         color: #959595;
     }
 
-    .cost_repair_button{
+    .cost_repair_button {
         font-size: 15px;
         line-height: 17px;
         padding: 11px 19px;
@@ -293,26 +312,28 @@
 
     /* СЕКЦИЯ ПЯТАЯ */
 
-    .section_five{
+    .section_five {
         background-image: none;
         padding-bottom: 145px;
         margin-bottom: 0px;
     }
 
-    .blackout-section-five, .img_box_first, 
-    .img_box_second, .styles_list{
+    .blackout-section-five,
+    .img_box_first,
+    .img_box_second,
+    .styles_list {
         display: none;
     }
 
-    .wrapper_section_five{
+    .wrapper_section_five {
         flex-direction: column;
     }
 
-    .description_section_five{
+    .description_section_five {
         padding: 0px;
     }
 
-    .title_section_five{
+    .title_section_five {
         font-size: 22px;
         line-height: 30px;
         text-align: center;
@@ -322,83 +343,85 @@
         padding-right: 15px;
     }
 
-    .section_five_mobile_img{
+    .section_five_mobile_img {
         display: block;
         position: absolute;
         top: 130%;
         z-index: 2;
     }
 
-    .section_five_mobile_img img:nth-child(n+2){
+    .section_five_mobile_img img:nth-child(n+2) {
         position: absolute;
     }
 
-    .section_five_mobile_img img:nth-child(2){
+    .section_five_mobile_img img:nth-child(2) {
         top: 42%;
         left: 4%;
     }
 
-    .section_five_mobile_img img:last-child{
+    .section_five_mobile_img img:last-child {
         top: 42%;
         right: 4%;
     }
 
     /* СЕКЦИЯ ШЕСТЬ */
 
-    .section_six{display: none;}
+    .section_six {
+        display: none;
+    }
 
     /* СЕКЦИЯ СЕМЬ */
 
-    .section_seven{
+    .section_seven {
         background-image: none;
         padding-bottom: 50px;
     }
 
-    .blackout-section-seven{
+    .blackout-section-seven {
         background-color: rgba(19, 19, 19, 1);
     }
 
-    .form_questions{
-        width:auto;
+    .form_questions {
+        width: auto;
         position: relative;
         margin-left: 0px;
         margin-top: 0px;
         left: auto;
     }
 
-    .wrapper_form{
+    .wrapper_form {
         padding: 0px;
         padding-top: 173px;
     }
 
-    .question_form_header{
+    .question_form_header {
         font-size: 20px;
         text-align: center;
         text-transform: uppercase;
         margin: 0px 41px 52px 41px;
         width: auto;
     }
-    
-    .form_questions_text{
+
+    .form_questions_text {
         flex-direction: column;
         margin-bottom: 0px;
     }
 
-    .additional_properties{
-        max-width:none;
+    .additional_properties {
+        max-width: none;
         margin-bottom: 63px;
     }
 
-    .question_indent{
+    .question_indent {
         margin-bottom: 21px;
     }
 
-    .label_form_question{
+    .label_form_question {
         text-align: left;
         margin-bottom: 67px;
     }
 
-    .button-submit-form-question{
+    .button-submit-form-question {
         width: 100%;
         margin-bottom: 46px;
         font-size: 13px;
@@ -406,39 +429,29 @@
         padding: 18px 144px;
     }
 
-    .map_img{
+    .map_img {
         display: none;
     }
 
-    .map_img_mobile{
+    .map_img_mobile {
         display: block;
         margin-bottom: 42px;
     }
 
-    .adress_contacts_header{
+    .adress_contacts_header {
         padding-top: 0px;
         margin-bottom: 0px;
     }
 
-    .adress_contacts_header h3{
+    .adress_contacts_header h3 {
         font-size: 18px;
         line-height: 25px;
     }
 
     /* ПОДВАЛ */
 
-    .footer{
+    .footer {
         display: none;
     }
-
-
-
-
-
-
-
-
-
-
 
 }
